@@ -1,0 +1,20 @@
+Package: djsir-sat
+Type: Package
+Title: Useful Functions for Data Analysis in Skills and TAFE at DJSIR 
+Version: 0.0.1
+Authors@R: c(
+    person(
+      "Hamish", "Gamble",
+      email = "hamish.gamble@ecodev.vic.gov.au",
+      role = c("aut", "cre")
+    )
+  )
+Description: TBC
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Config/roxygen2/version: 8.1.0
+Imports: 
+    systemfonts
+Suggests: 
+    showtext
