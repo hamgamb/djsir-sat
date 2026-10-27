@@ -1,4 +1,4 @@
-Package: djsir-sat
+Package: djsir.sat
 Type: Package
 Title: Useful Functions for Data Analysis in Skills and TAFE at DJSIR 
 Version: 0.0.1
@@ -9,12 +9,18 @@ Authors@R: c(
       role = c("aut", "cre")
     )
   )
-Description: TBC
+Description: This is a description of this package. 
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Config/roxygen2/version: 8.1.0
 Imports: 
-    systemfonts
+    ggplot2,
+    ggtext,
 Suggests: 
-    showtext
+    showtext,
+    sysfonts,
+    testthat (>= 3.0.0)
+Depends: 
+    R (>= 3.5)
+Config/testthat/edition: 3
