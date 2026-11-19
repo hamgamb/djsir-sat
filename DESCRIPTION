@@ -13,7 +13,7 @@ Description: This is a description of this package.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Config/roxygen2/version: 8.1.0
+Config/roxygen2/version: 8.1.1
 Imports: 
     ggplot2,
     ggtext,
