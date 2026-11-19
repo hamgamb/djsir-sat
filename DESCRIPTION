@@ -15,8 +15,14 @@ Encoding: UTF-8
 LazyData: true
 Config/roxygen2/version: 8.1.1
 Imports: 
+    dplyr,
     ggplot2,
     ggtext,
+    glue,
+    purrr,
+    reticulate,
+    stringr,
+    tibble
 Suggests: 
     showtext,
     sysfonts,
