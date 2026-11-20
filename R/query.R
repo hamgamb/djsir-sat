@@ -11,20 +11,22 @@
 #' @examples
 mdx_query <- function(columns, rows, slicers, ...) {
   
+  items <- list(...)
   
-  if (!is.null(years)) {
+  
+  if (!is.null(items$years)) {
   
   years <- year_to_mdx(years)
   
   }
 
   
-  if (!is.null(years)) {
+  if (!is.null(items$years)) {
     colnames <- c("Reporting Year",
                   "Minimum Course Commencement Year")
   } 
   
-  if (!is.null(course)) {
+  if (!is.null(items$course)) {
     courses <- course_code_to_mdx()
   }
   
