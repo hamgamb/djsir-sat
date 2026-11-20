@@ -9,19 +9,17 @@
 #' @export
 #'
 #' @examples
-mdx_query <- function(columns, rows, slicers, ...) {
-  
-  items <- list(...)
+mdx_query <- function(columns, rows, slicers, years) {
   
   
-  if (!is.null(items$years)) {
+  if (!is.null(years)) {
   
   years <- year_to_mdx(years)
   
   }
 
   
-  if (!is.null(items$years)) {
+  if (!is.null(years)) {
     colnames <- c("Reporting Year",
                   "Minimum Course Commencement Year")
   } 
