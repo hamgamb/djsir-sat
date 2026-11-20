@@ -8,7 +8,7 @@ cube_connect <- function() {
   
   reticulate::py_require("pywin32")
   
-  connect <- reticulate::import("pywin32")$connect
+  connect <- reticulate::import("adodbapi")$connect
   
   conn <- connect(
     "Provider=MSOLAP.4;Data Source=p06671.awslzdom01.vic.gov.au;Initial Catalog=Skills Victoria Cubes CutDown;Persist Security Info=True;"
