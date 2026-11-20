@@ -24,9 +24,9 @@ mdx_query <- function(columns, rows, slicers, years) {
                   "Minimum Course Commencement Year")
   } 
   
-  if (!is.null(items$course)) {
-    courses <- course_code_to_mdx()
-  }
+  # if (!is.null(course)) {
+  #   courses <- course_code_to_mdx()
+  # }
   
   # Get other column names from the rows
   names_from_row <- stringr::str_extract_all(rows,
